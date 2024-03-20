@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+  background-color: #eaeaea;
+  font-family: "Montserrat";
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.hero {
+  width: 100%;
+}
+.hero__banner {
+  border-radius: 30px;
+  background-color: #101010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero__title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 30px;
+  color: #ffffff;
+  font-family: "Montserrat";
+}
+
+.hero__image {
+  width: 321px;
+  height: 226px;
+  top: 18px;
+  position: relative;
+}
+
+.case {
+  margin: 50px auto;
+  /* margin-top: 50px; */
+}
+
+.title {
+  color: #838383;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  box-shadow: 0px 0px 20px 0px #0000001a;
+  padding: 100px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.item__image{
+    padding-bottom: 30px;
+}
+
+.name {
+  color: #1c1c27;
+  font-weight: 600;
+  font-size: 17px;
+}
+.price{
+    color: #ffce7f;
+}
+
+.products__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+   
+    gap: 50px;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 45px;
+
+}
+
+.material-symbols-outlined.fill {
+  display: flex;
+  align-self: flex-start;
+  color: black;
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.product__info {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+}
+
+.product__details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+.product__image-block{
+    display: flex;
+    justify-content: center;
+}
+
+.product__rating {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.material-symbols-outlined {
+  color: #ffce7f;
+  margin-right: 5px;
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+.wireless{
+  margin: 50px auto;
+
+}
+
+
+.footer{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+    
+}
+
+.socials__icon{
+    margin: 10px;
+}
+
+
+.pages-links__list{
+    list-style: none;
+}
+.pages-links__item{
+    margin: 10px;
+
+}
